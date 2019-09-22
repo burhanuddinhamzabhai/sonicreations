@@ -23,10 +23,10 @@ body{
 	background: #ffffff;
 }
 .three{
-	background: #a3f3d3;
+	background: #ffffff;
 }
 .four{
-	background: #0bbaa0;
+	background: #ffffff;
 }
 .five{
 	background: linear-gradient(90deg,#fcb045,#fd1d1d,#833ab4);
@@ -51,7 +51,7 @@ body{
 nav{
 	text-align: center;
 }
-nav ul a{
+div nav ul a{
 	display: inline-block;
 	text-decoration: none;
 	color: white;
@@ -59,11 +59,11 @@ nav ul a{
 	padding: 10px 20px;
 	transition: .5s;
 }
-nav ul a:hover{
+div nav ul a:hover{
 	font-size: 25px;
 	transition: .5s;
 }
-nav ul a li{
+div nav ul a li{
 	list-style: none;
 }
 
@@ -132,4 +132,37 @@ div ul a:hover{
 }
 div ul a li{
 	list-style: none;
+}
+#frames p{
+	color: black;
+	font-size: 40px;
+	position: relative;
+}
+#cards p{
+	color: black;
+	font-size: 40px;
+	position: relative;
+}
+#contact div{
+	position: relative;
+	top: 30%;
+	font-size: 50px;
+	color: white;
+}
+
+#contactbtn{
+	box-sizing: border-box;
+	border: 2px solid white;
+	border-radius: 20px;
+	background: transparent;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	margin-top: 20px;
+	transition: .5s;
+}
+#contactbtn:hover{
+	background: white;
+	color: orange;
+	transition: .5s;
 }
