@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -14,10 +17,10 @@ body{
 	transform-origin: top left;
 }
 .one{
-	background: #efdefe;
+	background: linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);
 }
 .two{
-	background: #efd06d;
+	background: #ffffff;
 }
 .three{
 	background: #a3f3d3;
@@ -26,7 +29,7 @@ body{
 	background: #0bbaa0;
 }
 .five{
-	background: #e789c8;
+	background: linear-gradient(90deg,#fcb045,#fd1d1d,#833ab4);
 }
 .outer-wrapper{
 	width: 100vh;
@@ -41,4 +44,92 @@ body{
 }
 ::-webkit-scrollbar{
 	display: none;
+}
+
+
+
+nav{
+	text-align: center;
+}
+nav ul a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px;
+	transition: .5s;
+}
+nav ul a:hover{
+	font-size: 25px;
+	transition: .5s;
+}
+nav ul a li{
+	list-style: none;
+}
+
+header{
+	position: relative;
+	top: 30%;
+	font-size: 60px;
+	color: white;
+}
+header div{
+	font-size: 30px;
+}
+#seemore{
+	box-sizing: border-box;
+	border: 2px solid white;
+	border-radius: 20px;
+	background: transparent;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	transition: .5s;
+}
+#seemore:hover{
+	background: white;
+	color: orange;
+	transition: .5s;
+}
+#explosionbox p{
+	color: black;
+	font-size: 40px;
+	position: relative;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+  grid-row-gap: 20px;
+  padding: 10px;
+}
+
+.grid-container > div {
+ 
+  text-align: center;
+  font-size: 20px;
+}
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+
+}
+div{
+	text-align: center;
+}
+div ul a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 10px 20px;
+	transition: .5s;
+}
+div ul a:hover{
+	font-size: 25px;
+	transition: .5s;
+}
+div ul a li{
+	list-style: none;
 }
