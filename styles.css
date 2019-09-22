@@ -1,9 +1,11 @@
 html{
 	scroll-behavior: smooth;
+
 }
 body{
 	margin: 0;
 	padding: 0;
+	scroll-snap-type: x mandatory;
 }
 .slide{
 	width: 100vw;
@@ -17,6 +19,7 @@ body{
 	transform-origin: top left;
 }
 .one{
+	scroll-snap-align:start;
 	background: linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);
 }
 .two{
